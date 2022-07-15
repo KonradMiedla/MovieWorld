@@ -30,7 +30,7 @@ const App = () => {
                     alt="search" 
                     onClick={() => searchMovies(searchTerm)}></img>
             </div>
-
+            
             {
                 movies?.length > 0
                 ? (
